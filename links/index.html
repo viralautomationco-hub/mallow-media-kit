@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marshmallow ASMR — Links</title>
+<meta name="description" content="Shop the roasting setup and get in touch with Marshmallow ASMR.">
+<style>
+  :root {
+    --bg: #FBF5EB; --ink: #241B14; --muted: #7C6F62; --toast: #C97A1F;
+    --ember: #B23F17; --card: #FFFDF8; --line: #E8DCCB;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1D1611; --ink: #F5EDE1; --muted: #A6968A; --toast: #E09A3C; --ember: #E0562A; --card: #27201A; --line: #3A3028; }
+  }
+  :root[data-theme="dark"] { --bg: #1D1611; --ink: #F5EDE1; --muted: #A6968A; --toast: #E09A3C; --ember: #E0562A; --card: #27201A; --line: #3A3028; }
+  :root[data-theme="light"] { --bg: #FBF5EB; --ink: #241B14; --muted: #7C6F62; --toast: #C97A1F; --ember: #B23F17; --card: #FFFDF8; --line: #E8DCCB; }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex; justify-content: center; padding: 48px 20px 64px;
+  }
+  main { width: 100%; max-width: 420px; }
+
+  .avatar {
+    width: 84px; height: 84px; border-radius: 50%; margin: 0 auto 16px;
+    display: block; background: linear-gradient(135deg, var(--toast), var(--ember));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 36px;
+  }
+  h1 { text-align: center; font-size: 19px; margin: 0 0 4px; }
+  .handle { text-align: center; color: var(--muted); font-size: 14px; margin: 0 0 4px; }
+  .tagline { text-align: center; color: var(--muted); font-size: 14px; margin: 0 0 32px; line-height: 1.5; }
+
+  a.link {
+    display: block; text-decoration: none; color: inherit;
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 14px; transition: transform .12s ease, border-color .12s ease;
+  }
+  a.link:active { transform: scale(0.98); }
+
+  a.primary {
+    background: linear-gradient(135deg, var(--toast), var(--ember));
+    border: none; color: #FFFDF8; padding: 22px 20px;
+  }
+  a.primary .label { font-size: 17px; font-weight: 700; }
+  a.primary .sub { font-size: 13px; opacity: 0.9; margin-top: 4px; }
+
+  a.secondary .label { font-size: 15px; font-weight: 600; }
+  a.secondary .sub { font-size: 13px; color: var(--muted); margin-top: 3px; }
+
+  .label { display: flex; align-items: center; gap: 8px; }
+
+  footer { text-align: center; margin-top: 28px; font-size: 13px; }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<main>
+  <div class="avatar">🔥</div>
+  <h1>Marshmallow ASMR</h1>
+  <p class="handle">@mallowasmr</p>
+  <p class="tagline">Journey to a Million Mallowers 🔥<br>Daily roasts. Pick your mallow.</p>
+
+  <a class="link primary" href="https://amzn.to/4vFd6FX" target="_blank" rel="noopener sponsored">
+    <div class="label">🛒 Shop My Roasting Setup</div>
+    <div class="sub">Torch, skewers &amp; marshmallows — my exact gear</div>
+  </a>
+
+  <a class="link secondary" href="https://mallowasmr.com" target="_blank" rel="noopener">
+    <div class="label">🤝 Work With Me</div>
+    <div class="sub">Media kit &amp; partnership rates</div>
+  </a>
+
+  <footer>
+    <a href="mailto:allthingsmarshmallows@gmail.com">Business inquiries</a>
+  </footer>
+</main>
+</body>
+</html>
